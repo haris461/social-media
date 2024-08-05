@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- User Profile Section -->
+        <header class="user-profile">
+            <img src="https://via.placeholder.com/100" alt="User Avatar" class="user-avatar">
+            <h1 class="user-name">haris farooq</h1>
+            <p class="user-bio">Web Developer & Designer</p>
+        </header>
+
+        <!-- Post Creation Section -->
+        <section class="create-post">
+            <textarea id="postContent" placeholder="What's on your mind?" maxlength="280"></textarea>
+            <button id="postButton">Post</button>
+        </section>
+
+        <!-- Feed Section -->
+        <section class="feed">
+            <!-- Posts will be dynamically added here -->
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
